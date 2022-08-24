@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* main container */
+
+.main{
+    position: relative;
+    background: linear-gradient(to top, rgb(0,0,0,0.8), rgb(0, 0, 0, 0.6)), url(bg.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* navigation_bar */
+
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+
+.logo{
+    /* color: yellow; */
+    color: #10fc00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    color: darkorange;
+    border-bottom: 2px solid #10fc00;
+    /* border-right: 2px solid #10fc00; */
+}
+
+.nav{
+    width: 100vw;
+}
+
+.nav ul{
+    height: 40px;
+    list-style: none;
+    margin-left: 175px;
+    margin-right: 20px;
+    float: left;
+}
+
+.nav ul li{
+    /* display: flex; */
+    float: left;
+    margin: 24px 0 0 24px;
+}
+
+.nav ul li a{
+    font-family: sans-serif;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.nav ul li a:hover{
+    color: #10fc00;
+    border-bottom: 2px solid #10fc00;
+    /* color: yellow; */
+}
+
+.search{
+    float: right;
+    margin: 19px 20px 0 0;
+}
+
+.search input{
+    float: left;
+    height: 22px;
+    width: 249px;
+    background: transparent;
+    color: white;
+    border: 1px solid #10fc00;
+    /* border: 1px solid yellow; */
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 16px;
+    padding: 4px;
+    font-family: sans-serif;
+}
+
+.search input:focus{
+    outline: none;
+    background: #058a0542;
+}
+
+.search button{
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 80px;
+    height: 32px;
+    border: none;
+    background-color: #10fc00;
+    /* background-color: yellow; */
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.search button:hover{
+    background-color: white;
+    color: orange;
+}
+
+/* content  */
+
+.content{
+    color: white;
+    clear: both;
+    width: 60vw;
+    padding-top: 160px;
+    padding-left: 40px;
+    float: left;
+    /* border: 1px solid white; */
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    letter-spacing: 2px;
+}
+
+.content h1 span {
+    font-size: 72px;
+    letter-spacing: 3px;
+    color: #10fc00;
+    /* color: yellow; */
+}
+
+.content p{
+    font-size: 23px;
+    padding: 10px;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+}
+
+.btn{
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    background-color: #10fc00;
+    /* background-color: yellow; */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.btn:hover{
+    background-color: white;
+    color: orange;
+}
+
+.cn-btn{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* login-form */
+
+.form{
+    color: white;
+    background: linear-gradient(to top, rgb(0,0,0,0.6), rgb(0, 0, 0, 0.6));
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-top: 158px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(59, 57, 57);
+}
+
+.form h2{
+    font-family: arial;
+    height: 44px;
+    line-height: 44px;
+    background-color: #0bf10a70;
+    /* background-color: rgb(255 255 0 / 64%); */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.form input{
+    width: 96%;
+    height: 39px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #10fc00;
+    /* border-bottom: 1px solid yellow; */
+    font-size: 15px;
+}
+
+.li-btn{
+    width: 96%;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.link{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+}
+
+.link a{
+    text-decoration: none;
+    color: orange;
+    font-style: 18px;
+    transition: 0.4s ease;
+}
+
+.link a:hover{
+    color: #10fc00;
+    border-bottom: 2px solid #10fc00;
+    /* color: yellow; */
+}
+
+.li-other{
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.icons ion-icon{
+    font-size: 30px;
+    /* margin-left: 20px; */
+    transition: 0.5s ease-in-out;
+    padding: 7px;
+}
+
+.icons ion-icon:first-child{
+    margin-left: 0;
+}
+
+.icons ion-icon:hover{
+    color: #10fc00;
+}
+
+.clients{
+    color: white;
+    text-decoration: none;
+}
+
+/* responsive css 1:08 */
